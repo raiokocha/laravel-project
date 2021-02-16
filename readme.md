@@ -15,6 +15,7 @@ Projeto de estudo do framework laravel 8, aplicando Repository Pattern.
 - APACHE
 - Banco de Dados (MySQL)
 - Composer
+- Postman
 
 ## Instalação
 - Clonar o Projeto
@@ -52,7 +53,8 @@ Os repositórios são geralmente um empacotador comum para seu modelo e o lugar 
 ## ER Diagram
 <img src="https://i.ibb.co/Wx6J7P6/er.png" style="height: 400px !important;width: 400px !important;" >
 
-
+## Requisições
+- Collection do POSTMAN na raiz do projeto
 
 ## Materiais úteis
 - http://br.phptherightway.com/
