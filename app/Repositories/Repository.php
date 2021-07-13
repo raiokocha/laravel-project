@@ -32,7 +32,7 @@ class Repository implements RepositoryInterface
 
     public function create($data)
     {
-        return $this->model->create( (array) $data);
+        return $this->model->create($data);
     }
 
     public function update(array $data, $id)

@@ -11,6 +11,7 @@ class TransferValidation
     {
         $client = new Client([]);
         $response = $client->request($method, $requestUrl);
+        dd($response);
         return json_decode($response->getBody()->getContents());
     }
 

@@ -18,7 +18,7 @@ class Wallet extends Model
     {
         $new = (object)$new['entity'];
 
-        $new->value = 0;
+        $new->value = 1000;
         $new->status = 1;
         $new->created_at = Carbon::now();
 
